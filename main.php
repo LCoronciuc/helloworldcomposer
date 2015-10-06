@@ -1,6 +1,8 @@
 <?php
 
-require "hello.php";
+require __DIR__ . "hello.php";
+
+require __DIR__ . "vendor/autoload.php";
 
 $greetings = new hello();
 
