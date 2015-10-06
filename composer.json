@@ -1,0 +1,11 @@
+{
+    "name": "liviucoronciuc/hello-world-composer",
+    "description": "First mega shit app",
+    "authors": [
+        {
+            "name": "Liviu Coroncicu",
+            "email": "liviucoronciuc@iesebre.com"
+        }
+    ],
+    "require": {}
+}
