@@ -1,18 +1,19 @@
 <?php
 
-require 'vendor/autoload.php';
+namespace Com\Iesebre\Dam2\liviucoronciuc\helloworldcomposer;
+
+use Faker\Factory;
 
 class Hello
 {
     public $faker;
-
 
     /**
      * Hello constructor.
      */
     public function __construct()
     {
-        $this->faker = Faker\Factory::create();
+        $this->faker = Factory::create();
     }
 
     public function say_hello()
